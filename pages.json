@@ -1,0 +1,100 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "乐聊",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我",
+				"enablePullDownRefresh" : false,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path" : "pages/contacts/contacts",
+			"style" : 
+			{
+				"navigationBarTitleText" : "好友列表",
+				"enablePullDownRefresh" : false,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path" : "pages/userInfo/userInfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/addFriends/addFriends",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加好友",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/addFriendsInfo/addFriendsInfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/newFriends/newFriends",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新的朋友",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+		"tabBar": {
+		    "color": "#909399",
+		    "selectedColor": "#de3f2b",
+		    "borderStyle": "black",
+		    "backgroundColor": "#ffffff",
+		    "list": [{
+		        "pagePath": "pages/index/index",
+		        "iconPath": "static/tabberIcon/message.png",
+		        "selectedIconPath": "static/tabberIcon/message_.png",
+		        "text": "消息"
+		    },
+			{
+			    "pagePath": "pages/contacts/contacts",
+			    "iconPath": "static/tabberIcon/team.png",
+			    "selectedIconPath": "static/tabberIcon/team_.png",
+			    "text": "联系人"
+			}, {
+		        "pagePath": "pages/my/my",
+		        "iconPath": "static/tabberIcon/user.png",
+		        "selectedIconPath": "static/tabberIcon/user_.png",
+		        "text": "我"
+		    }
+			]
+		},
+	"uniIdRouter": {}
+}
