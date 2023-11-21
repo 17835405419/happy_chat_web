@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "好友列表",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-badge": "/uni_modules/uview-ui/components/u-badge/u-badge",
+    "u-index-list": "/uni_modules/uview-ui/components/u-index-list/u-index-list",
+    "u-index-item": "/uni_modules/uview-ui/components/u-index-item/u-index-item",
+    "u-index-anchor": "/uni_modules/uview-ui/components/u-index-anchor/u-index-anchor",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "nav-bar": "/components/NavBar"
+  }
+}

@@ -54,6 +54,19 @@ module.exports = (vm) => {
 			custom: {auth: true},
 		})
 	}
+	
+	
+	/*
+		聊天消息相关接口
+	 */
+	// 获取好友列表
+	const getChatUserMessage_Api = params=>{
+		return http.get(`/chatUserMessage`,{
+			params,
+			custom: {auth: true,toast:false},
+		})
+	}
+	
 	return uni.$u.api = {
 		userLogin_Api,
 		getUserInfo_Api,
@@ -61,7 +74,8 @@ module.exports = (vm) => {
 		getOneFriendShip_Api,
 		sendFriendShipRequest_Api,
 		getFriendShip_Api,
-		changeFriendShip_Api
+		changeFriendShip_Api,
+		getChatUserMessage_Api
 	};
 }
 

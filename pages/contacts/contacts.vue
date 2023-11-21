@@ -17,10 +17,10 @@
 			</view>
 		</view>
 		<u-index-list :index-list="indexList" :sticky="false">
-			<template v-for="(item, index) in itemArr">
+			<template v-for="(item, index) in itemArr" >
 				<u-index-item>
 					<u-index-anchor :text="indexList[index]"></u-index-anchor>
-					<view class="list-cell friendShip" v-for="(cell, index) in item" @click="toAddFriendsInfo(cell)">
+					<view class="list-cell friendShip" v-for="(cell, index) in item"  @click="toAddFriendsInfo(cell)">
 						<u-avatar :src="cell.avatarUrl" shape="square" size="70rpx"></u-avatar>
 						<view class="nickname">
 							{{cell.nickName}}
@@ -64,7 +64,7 @@
 						.beRequest_friendShipInfo) : this.friendsList.push(friend.request_friendShipInfo)
 
 				})
-
+				
 				// 动态生成索引列表和二维数组
 				this.generateIndexAndArray();
 			},
@@ -125,10 +125,9 @@
 				uni.$u.route("pages/newFriends/newFriends")
 			},
 			toAddFriendsInfo(item) {
-
 				Object.assign(item, {
 					isFriendShip: true
-				})
+				}) 
 				// 跳转至用户详情界面
 				setTimeout(() => {
 					uni.$u.route({

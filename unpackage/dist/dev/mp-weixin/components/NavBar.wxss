@@ -1,0 +1,37 @@
+.navbar.data-v-0957edea {
+  height: 80rpx;
+  width: 100%;
+  background-color: #dedede;
+  line-height: 80rpx;
+  text-align: center;
+  font-weight: 800;
+  position: relative;
+}
+.navbar .right-box.data-v-0957edea {
+  position: absolute;
+  right: 10rpx;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: flex;
+}
+.navbar .right-box .u-icon.data-v-0957edea {
+  padding: 0 15rpx;
+}
+.func-box.data-v-0957edea {
+  width: 300rpx;
+  background-color: #717171;
+  position: absolute;
+  right: 0;
+  top: 90rpx;
+  border-radius: 15rpx;
+  z-index: 999;
+}
+.func-box.data-v-0957edea .u-cell__title {
+  margin-left: -30rpx;
+}
+.func-box.data-v-0957edea .u-cell__title-text,
+.func-box .u-icon.data-v-0957edea {
+  color: #fff;
+}
+

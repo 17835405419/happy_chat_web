@@ -64,6 +64,14 @@
 				"navigationBarTitleText" : "新的朋友",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/privateMessages/privateMessages",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"globalStyle": {

@@ -12,7 +12,9 @@
 					this.$u.vuex("vuex_addfriend",res.addfriend)
 				}
 			})
-			console.log('App Show')
+			
+			
+		
 		},
 		onHide: function() {
 			console.log('App Hide')
@@ -24,7 +26,7 @@
 	/* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
 	@import "@/uni_modules/uview-ui/index.scss";
 	
-    @import url('//at.alicdn.com/t/c/font_4322493_dhiertmav3v.css'); //引入在线图标
+    @import url('//at.alicdn.com/t/c/font_4322493_8ibmotecnb2.css'); //引入在线图标
 	// app占位符样式
 	.status_bar {
 	    height: var(--status-bar-height);

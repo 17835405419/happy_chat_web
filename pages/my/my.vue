@@ -39,6 +39,9 @@
 <script>
 	
 	export default {
+		onLoad() {
+			console.log(this.$store.state.vuex_user.avatarUrl);
+		},
 		data() {
 			return {
 				src: 'https://img2.baidu.com/it/u=59726952,2203943565&fm=253&fmt=auto&app=120&f=JPEG?w=1422&h=800'

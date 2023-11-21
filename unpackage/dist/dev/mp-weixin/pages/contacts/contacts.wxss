@@ -1,0 +1,22 @@
+.list-cell.data-v-4ed3d3e6 {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 24rpx;
+  overflow: hidden;
+  color: #323233;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+.list-cell.data-v-4ed3d3e6 .u-badge {
+  margin: 6rpx;
+}
+.u-index-list .friendShip.data-v-4ed3d3e6 {
+  display: flex;
+  align-items: center;
+}
+.u-index-list .friendShip .nickname.data-v-4ed3d3e6 {
+  padding-left: 20rpx;
+}
+

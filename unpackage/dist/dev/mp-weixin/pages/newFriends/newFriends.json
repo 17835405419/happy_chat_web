@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "新的朋友",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-action-sheet": "/uni_modules/uview-ui/components/u-action-sheet/u-action-sheet"
+  }
+}

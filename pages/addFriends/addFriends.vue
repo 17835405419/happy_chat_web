@@ -37,7 +37,7 @@
 				} = await this.$u.api.getOneUserInfo_Api({
 					username: this.searchKey
 				})
-					console.log(data);
+			
 				if (data.code == 1000) {
 					this.searchContent = data.result
 					// 查询好友关系列表

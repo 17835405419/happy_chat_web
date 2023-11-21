@@ -50,6 +50,7 @@
 					this.$u.vuex("vuex_token",data.token) //存储token
 					// 获取登录用户信息
 					 const {data:data1} = await this.$u.api.getUserInfo_Api()
+
 					 this.$u.vuex("vuex_user",data1.result) 
 					 // // 发送登录成功事件 获取socketId
 					 // this.$socket.emit("login",{username:this.username})

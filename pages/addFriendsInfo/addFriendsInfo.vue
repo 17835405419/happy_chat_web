@@ -21,7 +21,7 @@
 		<u-cell-group :customStyle="{'background':'#ffffff'}" :border='false' class="group_three">
 			<u-button text="添加好友" class="sendButton" v-if="!userInfo.isFriendShip" @click="sendFriendsRequest"></u-button>
 			<view class="button-box " v-else>
-				<u-button text="发送消息"  icon="chat" ></u-button>
+				<u-button text="发送消息"  icon="chat" @click="toPrivateMessages"></u-button>
 				<u-button text="视频聊天" icon="phone" ></u-button>
 			</view>
 		</u-cell-group>
@@ -37,6 +37,7 @@
 		},
 		onLoad(e) {
 			this.userInfo = e
+		
 		},
 		methods:{
 			// 发送好友申请
@@ -45,6 +46,14 @@
 				if(data.code === 2000)this.$u.toast("发送申请成功")
 
 				if(data.errCode === 20001)this.$u.toast(data.errMessage)
+			},
+			toPrivateMessages(){
+				setTimeout(()=>{
+					uni.$u.route({
+						url:"/pages/privateMessages/privateMessages" ,
+						params:this.userInfo
+					})
+				},200)
 			}
 		}
 	}

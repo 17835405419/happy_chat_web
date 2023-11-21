@@ -1,0 +1,35 @@
+page.data-v-11d1fc86 {
+  background-color: #e1e1e1;
+}
+.userInfo-box.data-v-11d1fc86 {
+  display: flex;
+  align-items: center;
+  height: 260rpx;
+  background-color: #ffffff;
+  padding-left: 40rpx;
+}
+.userInfo-box .userInfo.data-v-11d1fc86 {
+  padding-left: 40rpx;
+  font-size: 13px;
+}
+.userInfo-box .userInfo .nickname.data-v-11d1fc86 {
+  font-weight: 800;
+  padding-bottom: 20rpx;
+}
+.userInfo-box .userInfo .username.data-v-11d1fc86 {
+  font-size: 12px;
+  color: #a5a5a5;
+}
+.group_two.data-v-11d1fc86 {
+  margin-top: 30rpx;
+}
+.group_three.data-v-11d1fc86 {
+  margin-top: 18rpx;
+}
+.group_three .sendButton.data-v-11d1fc86 {
+  color: #7474af !important;
+}
+.group_three .button-box.data-v-11d1fc86 .u-icon {
+  padding-right: 10rpx;
+}
+

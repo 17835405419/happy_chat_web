@@ -1,0 +1,36 @@
+page.data-v-0be17cc6 {
+  background-color: #e1e1e1;
+}
+.top_user-box.data-v-0be17cc6 {
+  display: flex;
+  padding: 100rpx 50rpx 0 50rpx;
+  height: 180rpx;
+  background-color: #ffffff;
+}
+.top_user-box .info-box.data-v-0be17cc6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30rpx;
+  padding-bottom: 10rpx;
+  height: 120rpx;
+}
+.top_user-box .info-box .nickname.data-v-0be17cc6 {
+  font-size: 17px;
+  font-weight: 700;
+}
+.top_user-box .info-box .username.data-v-0be17cc6 {
+  font-size: 13px;
+  color: #a5a5a5;
+}
+.func-box.data-v-0be17cc6 {
+  margin-top: 20rpx;
+}
+.func-box .iconfont.data-v-0be17cc6 {
+  padding-right: 20rpx;
+}
+.func-box .setting.data-v-0be17cc6 {
+  margin-top: 20rpx;
+  background-color: #ffffff;
+}
+

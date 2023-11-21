@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/my/my",
+    "pages/contacts/contacts",
+    "pages/userInfo/userInfo",
+    "pages/addFriends/addFriends",
+    "pages/addFriendsInfo/addFriendsInfo",
+    "pages/newFriends/newFriends",
+    "pages/privateMessages/privateMessages"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#de3f2b",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabberIcon/message.png",
+        "selectedIconPath": "static/tabberIcon/message_.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/contacts/contacts",
+        "iconPath": "static/tabberIcon/team.png",
+        "selectedIconPath": "static/tabberIcon/team_.png",
+        "text": "联系人"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabberIcon/user.png",
+        "selectedIconPath": "static/tabberIcon/user_.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
